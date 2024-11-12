@@ -1,0 +1,27 @@
+/* CSS for Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37062b; /* Header Background */
+    padding: 0 20px; 
+    height: 64px; /* Adjust header height if needed */
+  }
+  
+  /* CSS for Content inside Header */
+  .headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: #fff; /* Text color to make sure it contrasts well */
+  }
+  
+  /* Optional: Adjusting the font size and other styles for h1 */
+  .header  {
+    /* font-size: 2rem; */
+    margin: 40; /* Removing margin around the h1 */
+  }
+  
